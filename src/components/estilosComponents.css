@@ -592,10 +592,11 @@ h1, h2, button, input {
 
 .footer-div-mid {
     width: 100%;
-    height: 50%;
+    height: 40%;
     /* background-color: lightblue; */
     display: flex;
     justify-content: space-between;
+    padding-bottom: 10vh;
 }
 
 .footer-div-bottom {
@@ -617,8 +618,109 @@ h1, h2, button, input {
 .footer-mid-column {
     width: 22%;
     height: 100%;
-    background-color: #aaaaaa;
+    /* background-color: #aaaaaa; */
     display: block;
+}
+
+.footer-mid-column-top {
+    height: 25%;
+    width: 100%;
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #eeeeee;
+}
+
+.footer-mid-column-mid {
+    height: 50%;;
+    width: 100%;
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: #8f8f8f;
+    letter-spacing: -0.01em;
+    line-height: 1.6;
+}
+
+.footer-mid-column-bottom{
+    height: 25%;
+    width: 100%;
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    background-color: #666666;
+}
+
+.footer-mid-column-mid-indice {
+    height: 75%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-mid-column-mid-indice-column {
+    width: 49%;
+    height: 100%;
+    /* background-color: #666666; */
+}
+
+.footer-mid-column-mid-indice-column > ul {
+    list-style-type: none;
+}
+
+.footer-mid-column-mid-indice-column>ul>li>button {
+    border: none;
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: #8f8f8f;
+    letter-spacing: -0.01em;
+    line-height: 1.6;
+    padding-left: 8px;
+    background: none;
+    cursor: pointer;
+}
+
+.footer-mid-column-mid-third-column {
+    display: flex;
+    width: 100%;
+    height: 35%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.footer-mid-column-mid-third-column-img {
+    width: 29%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+}
+.footer-mid-column-mid-third-column-text {
+    width: 69%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;background-color: #dddddd;
+}
+
+.footer-mid-column-mid-fourth-column {
+    display: block;
+    height: 75%;
+    width: 100%;
+}
+
+.footer-mid-column-mid-third-column-qa {
+    height: 20%;
+    width: 100%;
+    margin-bottom: 8px;
+    background-color: #dddddd;
 }
 
 .footer-bottom-socialmedia {
@@ -659,3 +761,4 @@ h1, h2, button, input {
     width: 80%;
     height: 100%;
 }
+

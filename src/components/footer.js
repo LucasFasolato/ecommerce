@@ -15,10 +15,81 @@ const Footer = (props) => {
         </div>
       </div>
       <div className="footer-div-mid">
-        <div className="footer-mid-column">COLUM1</div>
-        <div className="footer-mid-column">COLUM2</div>
-        <div className="footer-mid-column">COLUM3</div>
-        <div className="footer-mid-column">COLUM4</div>
+        <div className="footer-mid-column">
+          <div className="footer-mid-column-top">ABOUT</div>
+          <div className="footer-mid-column-mid">
+            Donec vitae purus nunc. Morbi faucibus erat sit amet congue mattis.
+            Nullam frin-gilla faucibus urna, id dapibus erat iaculis ut. Integer
+            ac sem.
+          </div>
+          <div className="footer-mid-column-bottom">CREDIT CARDS</div>
+        </div>
+        <div className="footer-mid-column">
+          <div className="footer-mid-column-top">QUESTIONS</div>
+          <div className="footer-mid-column-mid-indice">
+            <div className="footer-mid-column-mid-indice-column">
+              <ul>
+                <li>
+                  <button>About Us</button>
+                </li>
+                <li>
+                  <button>Track Orders</button>
+                </li>
+                <li>
+                  <button>Returns</button>
+                </li>
+                <li>
+                  <button>Jobs</button>
+                </li>
+                <li>
+                  <button>Shipping</button>
+                </li>
+                <li>
+                  <button>Blog</button>
+                </li>
+              </ul>
+            </div>
+            <div className="footer-mid-column-mid-indice-column">
+              <ul>
+                <li>
+                  <button>Partners</button>
+                </li>
+                <li>
+                  <button>Bloggers</button>
+                </li>
+                <li>
+                  <button>Support</button>
+                </li>
+                <li>
+                  <button>Terms of Use</button>
+                </li>
+                <li>
+                  <button>Press</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="footer-mid-column">
+          <div className="footer-mid-column-top">INFO</div>
+          <div className="footer-mid-column-mid-third-column">
+            <div className="footer-mid-column-mid-third-column-img"></div>
+            <div className="footer-mid-column-mid-third-column-text"></div>
+          </div>
+          <div className="footer-mid-column-mid-third-column">
+            <div className="footer-mid-column-mid-third-column-img"></div>
+            <div className="footer-mid-column-mid-third-column-text"></div>
+          </div>
+        </div>
+        <div className="footer-mid-column">
+          <div className="footer-mid-column-top">Q & A</div>
+          <div className="footer-mid-column-mid-fourth-column">
+            <div className="footer-mid-column-mid-third-column-qa"></div>
+            <div className="footer-mid-column-mid-third-column-qa"></div>
+            <div className="footer-mid-column-mid-third-column-qa"></div>
+            <div className="footer-mid-column-mid-third-column-qa"></div>
+          </div>
+        </div>
       </div>
       <hr />
       <div className="footer-div-bottom">
